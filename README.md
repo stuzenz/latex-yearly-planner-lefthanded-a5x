@@ -1,11 +1,15 @@
 # latex-yearly-planner
 
+---
 # THIS ORIGINAL SOURCE FOR THIS FORKED PROJECT IS AT THE BELOW LINK
 - https://github.com/kudrykv/latex-yearly-planner
 
 This fork only has a few changes to allow lefthanded daily planners to be built for the Supernote A5X. Some people in the community asked for my changes - this was the easiest way to share them.
 
 For more information please read [this file](notes-lefthand-build.md)
+
+*README notes from the original project continues from here*
+---
 
 PDF planner designed for e-ink devices.
 
