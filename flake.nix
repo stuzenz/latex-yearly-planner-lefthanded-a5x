@@ -26,6 +26,7 @@
 
         # Dependencies for building the latex files
         texDeps = with pkgs; [
+          # texlive.combine.scheme-medium
           libuuid # for the "rev" utility
           ps # Used by build.sh
           python3 # used in the build scripts
@@ -48,7 +49,10 @@
               ifmtarg
               extsizes
               dashrule
+              scheme-full
+              chktex
               ;
+              
           })
         ];
       in

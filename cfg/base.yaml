@@ -22,10 +22,13 @@ layout:
   numbers:
     arraystretch: 1.5
     quarterlylines: 36
-    weeklylines: 11
+    # weeklylines: 11
+    weeklylines: 10
     dailytodos: 8
     dailynotes: 25
     dailypersonal: 6
+    # dailybottomhour: 5
+    # dailytophour: 21
     dailybottomhour: 7
     dailytophour: 23
     dailydiarygoals: 10
@@ -36,8 +39,8 @@ layout:
     notesindexpages: 3
     notesonpage: 35
     dotheightfull: 36
-    dotwidthfull: 30
-    dotwidthtwothirds: 20
+    dotwidthfull: 29
+    dotwidthtwothirds: 19
 
   lengths:
     tabcolsep: 3.5pt
