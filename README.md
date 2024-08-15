@@ -1,5 +1,12 @@
 # latex-yearly-planner
 
+# THIS ORIGINAL SOURCE FOR THIS FORKED PROJECT IS AT THE BELOW LINK
+- https://github.com/kudrykv/latex-yearly-planner
+
+This fork only has a few changes to allow lefthanded daily planners to be built for the Supernote A5X. Some people in the community asked for my changes - this was the easiest way to share them.
+
+For more information please read [this file](notes-lefthand-build.md)
+
 PDF planner designed for e-ink devices.
 
 See [discussions](https://github.com/kudrykv/latex-yearly-planner/discussions) for available planners and their variations.
@@ -28,7 +35,7 @@ The following was tested with [POP_OS 22.04.1 LTS](https://pop.system76.com/) un
 PASSES=1 \
 CFG="cfg/base.yaml,cfg/template_breadcrumb.yaml,cfg/sn_a5x.breadcrumb.default.yaml" \
 NAME="sn_a5x.breadcrumb.default" \
-./single.sh</code> 
+./single.sh</code>
 
 [Source](https://github.com/kudrykv/latex-yearly-planner/discussions/34#discussioncomment-3128344)
 
@@ -42,11 +49,11 @@ If you encounter any problems related to '.sty' files you likely need to
 
 ### Alternative install
 
-Instead of installing the dependencies manually, this repository is defined as a Nix flake which specifies fixed versions of all the required dependencies. 
+Instead of installing the dependencies manually, this repository is defined as a Nix flake which specifies fixed versions of all the required dependencies.
 
 1. [Install Nix](https://nixos.org/download.html)
 2. Build a planner pdf using `nix build`
 3. Or, if you want to develop the code, enter a shell with all the dependencies present using `nix develop`
-   
+
 # Preview examples
 <img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/01_annual.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/02_quarter.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/03_month.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/04_week.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/05_day.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/06_day_notes.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/07_day_reflect.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/08_todos_index.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/09_todos_page.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/10_notes_index.png" width="419"><img src="https://github.com/kudrykv/latex-yearly-planner/blob/main/examples/pictures/sn_a5x.planner/11_notes_page.png" width="419">
