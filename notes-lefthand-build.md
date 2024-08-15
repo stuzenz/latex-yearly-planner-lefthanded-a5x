@@ -1,4 +1,4 @@
-# Supernote A5X 2024 Planner for a lefty
+# Supernote A5X Planner for a lefty
 
 I use nixos anyway on my environments, so my approach to building the PDFs was
 
